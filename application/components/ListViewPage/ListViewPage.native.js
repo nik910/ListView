@@ -19,7 +19,7 @@ export default class ListViewPage extends Component{
     return(
       <View style = {{flex: 1, padding: 20}}>
         <View style = {{height: 30, alignItems: 'center'}}>
-          <TouchableText onPress = {() => Actions.scrollViewPage()} text = "List View Page" style = {{color: "blue"}}/>
+          <TouchableText onPress = {() => Actions.pop()} text = "List View Page" style = {{color: "blue"}}/>
         </View>
         <View style = {{flexGrow: 1, alignItems: 'center'}}>
           <ListView

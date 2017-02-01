@@ -8,8 +8,8 @@ export default class RouterPage extends Component{
     return(
       <Router>
         <Scene key = "root">
-          <Scene key = "listViewPage" initial component = {ListViewPage} hideNavBar />
-          <Scene key = "scrollViewPage" component = {ScrollViewPage} hideNavBar />
+          <Scene key = "listViewPage" component = {ListViewPage} hideNavBar />
+          <Scene key = "scrollViewPage" initial component = {ScrollViewPage} hideNavBar />
         </Scene>
       </Router>
     );
